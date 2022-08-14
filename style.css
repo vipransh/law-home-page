@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Oswald:wght@300;600&family=Roboto:ital@1&family=Sansita+Swashed:wght@300;400&family=Vujahday+Script&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+.navbar{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 50vh;
+    background-color: #30302f;
+}
+.nav-menu{
+    margin-left: 50px;
+    display: flex;
+    width: 90vw;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.list-div{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 200px; 
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+}
+.list > li{
+    color: rgb(201, 196, 196);
+    font-family: 'Oswald';
+    margin-inline-start: 60px;
+    cursor: pointer;
+}
+span{
+    font-family: 'Oswald';
+    color: #fff;
+}
+.nav-2{
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    height: 40vh;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+.nav-left{
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+.nav-right{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    align-items: center;
+}
+h1{
+    font-size: 70px;
+    color: #fff;
+    font-weight: 900;
+    font-family: 'Oswald';
+}
+p{
+    font-size: 20px;
+    font-family: 'Oswald';
+    color: rgb(186, 180, 180);
+}
+.hero{
+    width: 100vw;
+    height: 50vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.hero > img{
+    width: 100vw;
+    height: 50vh;
+   
+}
+.button-small{
+    font: 10px;
+    background-color: #30302f;
+    color: #E8BD0D;
+    padding: 8px 15px;
+    border-radius: 8px;
+    border: 1px solid #E8BD0D;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.button-small:hover{
+    background-color: #fff;
+    color: #E8BD0D;
+}
