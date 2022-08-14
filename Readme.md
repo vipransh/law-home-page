@@ -12,5 +12,5 @@ As I am beginner,it took almost 3 hour to complete  this project.
 **Note-**  This landing page is not mobile friendly.
 
 ![image](assets/Law%20Home%20Page.png)
-[Live-Link]()
+[Live-Link](https://law-home-page-vipransh.netlify.app/)
 
